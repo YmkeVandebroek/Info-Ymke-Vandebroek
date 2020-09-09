@@ -1,0 +1,165 @@
+body {
+  background-color: #ddf1f2; }
+
+.hoofdtitel {
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: table;
+  background-color: #499487;
+  font-family: 'Kaushan Script', cursive;
+  margin-bottom: 1rem; }
+
+.titel {
+  display: table-cell;
+  vertical-align: middle; }
+
+.ymke {
+  width: 100%;
+  margin-bottom: 1rem; }
+
+.bloktitel {
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  display: table;
+  background-color: #ff9f58;
+  font-family: 'Kaushan Script', cursive;
+  margin-bottom: 1rem; }
+
+.cds {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1rem; }
+
+.cds img {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+.blok {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  width: 100%;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Arvo', serif; }
+
+.blok img {
+  width: 100%; }
+
+.bloktekst {
+  background-color: #499487;
+  line-height: 1.4rem;
+  padding: 1rem;
+  display: inline-table;
+  color: white; }
+
+.bloktekst p {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle; }
+
+/* Animations */
+[data-aos="example-anim1"] {
+  -webkit-transform-origin: bottom;
+  -ms-transform-origin: bottom;
+  transform-origin: bottom;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform; }
+  [data-aos="example-anim1"].aos-animate {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg); }
+
+[data-aos="example-anim2"] {
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transform: translateX(2rem);
+  -ms-transform: translateX(2rem);
+  transform: translateX(2rem);
+  opacity: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  -o-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform; }
+  [data-aos="example-anim2"].aos-animate {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1; }
+
+[data-aos="example-anim2andersom"] {
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transform: translateX(-2rem);
+  -ms-transform: translateX(-2rem);
+  transform: translateX(-2rem);
+  opacity: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  -o-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform; }
+  [data-aos="example-anim2andersom"].aos-animate {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1; }
+
+[data-aos="example-anim3"] {
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform; }
+  [data-aos="example-anim3"].aos-animate {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+[data-aos="example-anim4"] {
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity; }
+  [data-aos="example-anim4"].aos-animate {
+    opacity: 1; }
+
+/* external css: flickity.css */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.carousel {
+  margin-bottom: 3rem; }
+
+iframe {
+  width: 100%; }

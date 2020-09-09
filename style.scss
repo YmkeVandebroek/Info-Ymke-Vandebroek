@@ -1,0 +1,143 @@
+body{
+  background-color: rgb(221, 241, 242);
+}
+
+//BLOK 1____________________________________________________________________________________________
+.hoofdtitel{
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: table;
+  background-color: rgb(73, 148, 135);
+  font-family: 'Kaushan Script', cursive;
+  margin-bottom: 1rem;
+}
+
+.titel{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.ymke{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.bloktitel{
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  display: table;
+  background-color: rgb(255, 159, 88);
+  font-family: 'Kaushan Script', cursive;
+  margin-bottom: 1rem;
+}
+
+.cds{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1rem;
+}
+
+.cds img{
+  width: 100%;
+}
+
+img{
+  width: 100%;
+}
+
+.blok{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Arvo', serif;
+}
+
+.blok img{
+  width: 100%;
+}
+
+.bloktekst{
+  background-color: rgb(73, 148, 135);
+  line-height: 1.4rem;
+  padding: 1rem;
+  display: inline-table;
+  color: white;
+}
+
+.bloktekst p{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+/* Animations */
+
+[data-aos="example-anim1"] {
+  transform-origin: bottom;
+  transition-timing-function: ease;
+  transform: rotateX(-90deg);
+  transition-property: transform;
+  &.aos-animate {
+    transform: rotateX(0deg);
+  }
+}
+
+[data-aos="example-anim2"] {
+  transition-timing-function: ease;
+  transform: translateX(2rem);
+  opacity: 0;
+  transition-property: transform, opacity;
+  &.aos-animate {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+[data-aos="example-anim2andersom"] {
+  transition-timing-function: ease;
+  transform: translateX(-2rem);
+  opacity: 0;
+  transition-property: transform, opacity;
+  &.aos-animate {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+[data-aos="example-anim3"] {
+  transition-timing-function: ease;
+  transform: scale(0);
+  transition-property: transform;
+  &.aos-animate {
+    transform: scale(1);
+  }
+}
+
+[data-aos="example-anim4"] {
+  transition-timing-function: ease;
+  opacity: (0);
+  transition-property: opacity;
+  &.aos-animate {
+    opacity: (1);
+  }
+}
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+.carousel{
+  margin-bottom: 3rem;
+}
+
+iframe{
+  width: 100%;
+}
