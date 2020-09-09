@@ -1,6 +1,14 @@
 body {
   background-color: #ddf1f2; }
 
+a {
+  display: block;
+  font-family: 'Kaushan Script', cursive;
+  padding-bottom: 2rem;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  color: white; }
+
 .hoofdtitel {
   height: 50vh;
   width: 100%;
@@ -67,6 +75,9 @@ img {
   text-align: center;
   display: table-cell;
   vertical-align: middle; }
+
+.bottom {
+  margin-bottom: 1rem; }
 
 /* Animations */
 [data-aos="example-anim1"] {
@@ -163,3 +174,90 @@ img {
 
 iframe {
   width: 100%; }
+
+@media (min-width: 600px) {
+  body {
+    padding: 1rem; }
+  .hoofdtitel {
+    font-size: 2rem; }
+  .bloktitel {
+    font-size: 2rem; }
+  .blok {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem; }
+  .bloktekst {
+    height: 70%;
+    margin: 15% 0;
+    border-radius: 5%;
+    font-size: 1.2rem;
+    line-height: 1.2; } }
+
+@media (min-width: 750px) {
+  .hoofdtitel {
+    height: 60vh; }
+  .bloktitel {
+    height: 60vh; }
+  .ymke {
+    width: 50%;
+    margin: 0 25% 1rem 25%; }
+  iframe {
+    height: 30rem; } }
+
+@media (min-width: 900px) {
+  body {
+    padding: 4rem; }
+  .blok {
+    grid-gap: 4rem; }
+  .hoofdtitel {
+    margin-bottom: 4rem; }
+  .ymke {
+    margin-bottom: 4rem; }
+  .bloktitel {
+    margin-bottom: 4rem; }
+  .blok {
+    margin-bottom: 4rem; }
+  .carousel {
+    margin-bottom: 7rem; }
+  .bottom {
+    margin-bottom: 4rem; } }
+
+@media (min-width: 1200px) {
+  body {
+    padding: 6rem; }
+  .blok {
+    grid-gap: 6rem; }
+  .hoofdtitel {
+    margin-bottom: 6rem; }
+  .ymke {
+    margin-bottom: 6rem; }
+  .bloktitel {
+    margin-bottom: 6rem; }
+  .bloktekst {
+    font-size: 1.4rem; }
+  a {
+    font-size: 2.3rem; }
+  .blok {
+    margin-bottom: 6rem; }
+  .carousel {
+    margin-bottom: 9rem; }
+  .bottom {
+    margin-bottom: 6rem; } }
+
+@media (min-width: 1300px) {
+  body {
+    padding: 10rem; }
+  .blok {
+    grid-gap: 10rem; }
+  .hoofdtitel {
+    margin-bottom: 10rem; }
+  .ymke {
+    margin-bottom: 10rem; }
+  .bloktitel {
+    margin-bottom: 10rem; }
+  .blok {
+    margin-bottom: 10rem; }
+  .carousel {
+    margin-bottom: 13rem; }
+  .bottom {
+    margin-bottom: 10rem; } }
